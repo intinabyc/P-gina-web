@@ -8,7 +8,7 @@ Fundación de Atención Integral Juvenil. Página hecha en HTML, CSS y JavaScrip
 
 ## Contenido pendiente
 
-Lo que aparece resaltado en amarillo con línea punteada es un dato por completar: proyectos propios, misión, teléfono, correo, Instagram y dirección. El correo que recibe el formulario se cambia en `main.js` (`CORREO_DESTINO`).
+Lo que aparece resaltado en amarillo con línea punteada es un dato por completar: proyectos propios, misión, segundo teléfono y números de las líneas de apoyo psicológico (por confirmar). El correo que recibe el formulario se cambia en `main.js` (`CORREO_DESTINO`).
 
 ## Verla en tu computadora
 

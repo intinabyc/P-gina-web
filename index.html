@@ -9,25 +9,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230F4C45'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23F2B705' stroke-width='3'/%3E%3C/svg%3E">
-</head>
+  <link rel="icon" href="img/logo.png">
+  <meta name="theme-color" content="#6B1220">
+  </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
 
   <header class="cabecera">
     <div class="contenedor cabecera__fila">
       <a class="marca" href="#inicio" aria-label="Fundainil, ir al inicio">
-        <svg class="marca__icono" viewBox="0 0 32 32" aria-hidden="true">
-          <circle cx="16" cy="16" r="13" />
-          <circle cx="16" cy="16" r="8" />
-          <circle cx="16" cy="16" r="3" />
-        </svg>
+        <img class="marca__logo" src="img/logo.png" alt="" width="40" height="40">
         <span>Fundainil</span>
       </a>
       <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
       <nav id="menu" class="menu" aria-label="Principal">
         <a href="#areas">Áreas de trabajo</a>
         <a href="#como-trabajamos">Cómo trabajamos</a>
+        <a href="#apoyo">Apoyo psicológico</a>
         <a href="#quienes-somos">Quiénes somos</a>
         <a href="#sumate">Súmate</a>
         <a class="boton boton--chico" href="#contacto">Escríbenos</a>
@@ -57,7 +55,7 @@
       <div class="contenedor portada__texto">
         <p class="portada__nombre">Fundación de Atención Integral Juvenil</p>
         <h1>Desde 1990 acompañamos a jóvenes y comunidades en toda Venezuela.</h1>
-        <p class="portada__bajada">Trabajamos en protección, agua y saneamiento, educación y seguridad alimentaria. Lo hacemos dentro de la respuesta humanitaria coordinada por Naciones Unidas y con proyectos propios.</p>
+        <p class="portada__bajada">Somos una organización no gubernamental con sede en Chacaíto, Caracas. Trabajamos en protección, agua y saneamiento, educación y seguridad alimentaria, dentro de la respuesta humanitaria coordinada por Naciones Unidas y con proyectos propios.</p>
         <div class="acciones">
           <a class="boton" href="#areas">Conoce nuestro trabajo</a>
           <a class="boton boton--claro" href="#contacto">Escríbenos</a>
@@ -81,9 +79,9 @@
             <h3>Protección</h3>
             <p>Prevenimos y atendemos situaciones de riesgo y violencia que afectan a niños, niñas, adolescentes y jóvenes.</p>
             <ul>
+              <li>Espacios Amigables para la infancia y la adolescencia</li>
+              <li>Atención psicológica en línea</li>
               <li>Orientación y acompañamiento psicosocial</li>
-              <li>Espacios seguros para adolescentes y jóvenes</li>
-              <li>Referencia a servicios especializados</li>
             </ul>
           </article>
 
@@ -92,9 +90,9 @@
             <h3>Agua, saneamiento e higiene</h3>
             <p>Mejoramos el acceso a agua segura y a condiciones de higiene en escuelas y comunidades.</p>
             <ul>
-              <li>Rehabilitación de puntos de agua y baños</li>
+              <li>Talleres de higiene de los espacios</li>
+              <li>Momentos del lavado de manos en escuelas</li>
               <li>Entrega de kits de higiene</li>
-              <li>Charlas de promoción de la higiene</li>
             </ul>
           </article>
 
@@ -120,7 +118,32 @@
             </ul>
           </article>
         </div>
-        <p class="nota-modelo">Modelo: las acciones de cada área son de ejemplo y se ajustan con el equipo.</p>
+        <p class="nota-modelo">Modelo: algunas acciones de cada área son de ejemplo y se ajustan con el equipo.</p>
+      </div>
+    </section>
+
+
+    <section id="apoyo" class="seccion seccion--gris">
+      <div class="contenedor dos-columnas">
+        <div>
+          <h2>¿Necesitas apoyo?</h2>
+          <p class="intro">Si tú, tu hijo o tu hija se sienten con miedo, angustia o tristeza, no tienen que pasarlo solos. Nuestro servicio de atención psicológica en línea es gratuito.</p>
+          <p><strong>Horario:</strong> de 8:00 a. m. a 4:00 p. m.</p>
+        </div>
+        <div>
+          <p class="apoyo-principal">Línea principal: <a class="pendiente" href="tel:+584127158762">0412 715 8762</a></p>
+          <ul class="apoyo">
+            <li><a class="pendiente" href="tel:+584265121059">0426 512 1059</a></li>
+            <li><a class="pendiente" href="tel:+584261164471">0426 116 4471</a></li>
+            <li><a class="pendiente" href="tel:+584242183517">0424 218 3517</a></li>
+            <li><a class="pendiente" href="tel:+584125863350">0412 586 3350</a></li>
+            <li><a class="pendiente" href="tel:+584242093910">0424 209 3910</a></li>
+            <li><a class="pendiente" href="tel:+584160618135">0416 061 8135</a></li>
+            <li><a class="pendiente" href="tel:+584242509439">0424 250 9439</a></li>
+          </ul>
+          <p class="nota-modelo">Modelo: números tomados de una publicación de Instagram, por confirmar.</p>
+          <p>También puedes escribir a <a href="mailto:fundainil@gmail.com">fundainil@gmail.com</a>.</p>
+        </div>
       </div>
     </section>
 
@@ -151,13 +174,13 @@
         </div>
         <div class="texto-largo">
           <p>Fundainil es la Fundación de Atención Integral Juvenil. Nacimos en 1990 con una idea sencilla: atender a cada joven de forma completa, mirando su salud, su educación, su seguridad y su familia.</p>
-          <p>En 36 años hemos crecido hasta trabajar en todo el país, junto a comunidades, escuelas, organizaciones locales y agencias de cooperación.</p>
+          <p>Desde nuestra sede en Chacaíto, Caracas, en 36 años hemos crecido hasta trabajar en todo el país, junto a comunidades, escuelas, organizaciones locales y agencias de cooperación.</p>
           <p class="pendiente-bloque">Espacio para la misión, la visión o una frase de la dirección.</p>
         </div>
       </div>
     </section>
 
-    <section id="sumate" class="seccion seccion--gris">
+    <section id="sumate" class="seccion">
       <div class="contenedor">
         <h2>Súmate</h2>
         <p class="intro">Hay tres formas de trabajar con nosotros.</p>
@@ -181,16 +204,16 @@
       </div>
     </section>
 
-    <section id="contacto" class="seccion">
+    <section id="contacto" class="seccion seccion--gris">
       <div class="contenedor dos-columnas">
         <div>
           <h2>Escríbenos</h2>
           <p class="intro">Respondemos en horario de oficina, de lunes a viernes.</p>
           <ul class="canales">
-            <li><span>WhatsApp</span> <a class="pendiente" href="#">+58 000 000 0000</a></li>
-            <li><span>Correo</span> <a class="pendiente" href="#">correo@fundainil.org</a></li>
-            <li><span>Instagram</span> <a class="pendiente" href="#">@fundainil</a></li>
-            <li><span>Oficina</span> <span class="pendiente">Dirección, ciudad</span></li>
+            <li><span>Teléfono</span> <span><a href="tel:+582129528136">+58 212 952 8136</a> / <span class="pendiente">2334</span></span></li>
+            <li><span>Correo</span> <a href="mailto:fundainil@gmail.com">fundainil@gmail.com</a></li>
+            <li><span>Instagram</span> <a href="https://www.instagram.com/fundainil/" rel="noopener">@fundainil</a></li>
+            <li><span>Sede</span> <span>Chacaíto, Caracas</span></li>
           </ul>
         </div>
         <form class="formulario" id="formulario" novalidate>
@@ -221,7 +244,7 @@
 
   <footer class="pie">
     <div class="contenedor pie__fila">
-      <p><strong>Fundainil</strong>, Fundación de Atención Integral Juvenil. Venezuela, desde 1990.</p>
+      <p><strong>Fundainil</strong>, Fundación de Atención Integral Juvenil. Chacaíto, Caracas, desde 1990. <a class="pie__enlace" href="https://www.instagram.com/fundainil/" rel="noopener">Instagram</a></p>
       <p>© <span id="anio">2026</span> Fundainil</p>
     </div>
   </footer>

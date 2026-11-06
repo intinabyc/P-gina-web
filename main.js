@@ -1,7 +1,7 @@
 // Fundainil: interacciones mínimas
 
-// Correo que recibe los mensajes del formulario (cambiar por el real)
-const CORREO_DESTINO = 'correo@fundainil.org';
+// Correo que recibe los mensajes del formulario
+const CORREO_DESTINO = 'fundainil@gmail.com';
 
 // Menú en teléfono
 const botonMenu = document.querySelector('.menu-boton');
