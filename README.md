@@ -16,7 +16,11 @@ Abre `index.html` con doble clic en cualquier navegador.
 
 ## Publicarla con GitHub Pages
 
+La página se publica desde la rama `main`, carpeta raíz.
+
 1. En GitHub, entra al repositorio y ve a **Settings > Pages**.
 2. En **Source**, elige **Deploy from a branch**.
-3. Elige la rama y la carpeta **/ (root)**, y pulsa **Save**.
-4. En uno o dos minutos la página queda en `https://<usuario>.github.io/<repositorio>/`.
+3. En **Branch**, elige `main` y la carpeta **/ (root)**, y pulsa **Save**.
+4. En uno o dos minutos queda en https://intinabyc.github.io/P-gina-web/
+
+Cada cambio que llegue a `main` se publica solo en uno o dos minutos.
